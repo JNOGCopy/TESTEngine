@@ -4,7 +4,7 @@
 #include <unordered_map>
 
 struct ECSEntityContainer;
-struct ECSComponentContainer;
+struct ECSComponentContainer<>;
 
 class ECSModule{
 private:
@@ -15,9 +15,9 @@ public:
 
     std::shared_ptr<ECSEntityContainer> getECSEntityContainer();
 
-    template<typename T = ECSComponentContainer>
-    std::shared_ptr<ECSComponentContainer> getECSComponentContainer();
+    template<typename T = ECSComponent>
+    std::shared_ptr<ECSComponentContainer<T>> getECSComponentContainer();
     
-    template<typename T = ECSComponentContainer>
-    void addECSComponentContainer(std::shared_ptr<ECSComponentContainer>);
+    template<typename T = ECSComponent>
+    void addECSComponentContainer(std::shared_ptr<ECSComponentContainer<T>>);
 };

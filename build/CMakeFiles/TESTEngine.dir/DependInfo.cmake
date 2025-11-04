@@ -9,6 +9,7 @@ set(CMAKE_DEPENDS_LANGUAGES
 # The set of dependency files which are needed:
 set(CMAKE_DEPENDS_DEPENDENCY_FILES
   "/home/JNOGORT/Documents/Projects/TESTEngine/src/app/main.cpp" "CMakeFiles/TESTEngine.dir/src/app/main.cpp.o" "gcc" "CMakeFiles/TESTEngine.dir/src/app/main.cpp.o.d"
+  "/home/JNOGORT/Documents/Projects/TESTEngine/src/common/vector3.cpp" "CMakeFiles/TESTEngine.dir/src/common/vector3.cpp.o" "gcc" "CMakeFiles/TESTEngine.dir/src/common/vector3.cpp.o.d"
   "/home/JNOGORT/Documents/Projects/TESTEngine/src/core/ecs/ecs_component_container.cpp" "CMakeFiles/TESTEngine.dir/src/core/ecs/ecs_component_container.cpp.o" "gcc" "CMakeFiles/TESTEngine.dir/src/core/ecs/ecs_component_container.cpp.o.d"
   "/home/JNOGORT/Documents/Projects/TESTEngine/src/core/ecs/ecs_entity.cpp" "CMakeFiles/TESTEngine.dir/src/core/ecs/ecs_entity.cpp.o" "gcc" "CMakeFiles/TESTEngine.dir/src/core/ecs/ecs_entity.cpp.o.d"
   "/home/JNOGORT/Documents/Projects/TESTEngine/src/core/ecs/ecs_entity_container.cpp" "CMakeFiles/TESTEngine.dir/src/core/ecs/ecs_entity_container.cpp.o" "gcc" "CMakeFiles/TESTEngine.dir/src/core/ecs/ecs_entity_container.cpp.o.d"

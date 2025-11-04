@@ -2,6 +2,8 @@ file(REMOVE_RECURSE
   "CMakeFiles/TESTEngine.dir/link.d"
   "CMakeFiles/TESTEngine.dir/src/app/main.cpp.o"
   "CMakeFiles/TESTEngine.dir/src/app/main.cpp.o.d"
+  "CMakeFiles/TESTEngine.dir/src/common/vector3.cpp.o"
+  "CMakeFiles/TESTEngine.dir/src/common/vector3.cpp.o.d"
   "CMakeFiles/TESTEngine.dir/src/core/ecs/ecs_component_container.cpp.o"
   "CMakeFiles/TESTEngine.dir/src/core/ecs/ecs_component_container.cpp.o.d"
   "CMakeFiles/TESTEngine.dir/src/core/ecs/ecs_entity.cpp.o"

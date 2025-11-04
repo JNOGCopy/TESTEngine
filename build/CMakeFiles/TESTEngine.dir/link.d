@@ -7,6 +7,7 @@ TESTEngine: \
   CMakeFiles/TESTEngine.dir/src/core/ecs/ecs_entity_container.cpp.o \
   CMakeFiles/TESTEngine.dir/src/core/ecs/ecs_entity.cpp.o \
   CMakeFiles/TESTEngine.dir/src/core/ecs/ecs_module.cpp.o \
+  CMakeFiles/TESTEngine.dir/src/common/vector3.cpp.o \
   /usr/lib/gcc/x86_64-pc-linux-gnu/15.2.1/../../../../lib/libstdc++.so \
   /usr/lib/gcc/x86_64-pc-linux-gnu/15.2.1/../../../../lib/libm.so \
   /usr/lib/gcc/x86_64-pc-linux-gnu/15.2.1/../../../../lib/libm.so \
@@ -50,6 +51,8 @@ CMakeFiles/TESTEngine.dir/src/core/ecs/ecs_entity_container.cpp.o:
 CMakeFiles/TESTEngine.dir/src/core/ecs/ecs_entity.cpp.o:
 
 CMakeFiles/TESTEngine.dir/src/core/ecs/ecs_module.cpp.o:
+
+CMakeFiles/TESTEngine.dir/src/common/vector3.cpp.o:
 
 /usr/lib/gcc/x86_64-pc-linux-gnu/15.2.1/../../../../lib/libstdc++.so:
 

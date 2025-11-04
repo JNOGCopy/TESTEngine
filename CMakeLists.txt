@@ -8,6 +8,8 @@ add_executable(TESTEngine
     src/core/ecs/ecs_entity_container.cpp
     src/core/ecs/ecs_entity.cpp
     src/core/ecs/ecs_module.cpp
+
+    src/common/vector3.cpp
 )
 
 include_directories(TESTEngine src)

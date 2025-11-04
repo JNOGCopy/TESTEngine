@@ -169,9 +169,13 @@ CMakeFiles/TESTEngine.dir/src/app/main.cpp.o: \
  /usr/include/c++/15.2.1/bits/enable_special_members.h \
  /usr/include/c++/15.2.1/bits/node_handle.h \
  /usr/include/c++/15.2.1/bits/erase_if.h \
- /home/JNOGORT/Documents/Projects/TESTEngine/src/core/ecs/ecs_entity_container.hpp \
+ /home/JNOGORT/Documents/Projects/TESTEngine/src/core/ecs/ecs_entity.hpp \
  /home/JNOGORT/Documents/Projects/TESTEngine/src/core/ecs/ecs_definitions.hpp \
  /usr/lib/gcc/x86_64-pc-linux-gnu/15.2.1/include/stdint.h \
  /usr/include/stdint.h /usr/include/bits/stdint-uintn.h \
  /usr/include/bits/stdint-least.h \
- /home/JNOGORT/Documents/Projects/TESTEngine/src/core/ecs/ecs_entity.hpp
+ /home/JNOGORT/Documents/Projects/TESTEngine/src/core/ecs/ecs_component.hpp \
+ /home/JNOGORT/Documents/Projects/TESTEngine/src/core/ecs/ecs_entity_container.hpp \
+ /home/JNOGORT/Documents/Projects/TESTEngine/src/core/ecs/ecs_component_container.hpp \
+ /home/JNOGORT/Documents/Projects/TESTEngine/src/core/ecs/custom_components/transform_component.hpp \
+ /home/JNOGORT/Documents/Projects/TESTEngine/src/common/vector3.h

@@ -3,6 +3,10 @@
 
 CMakeFiles/TESTEngine.dir/src/app/main.cpp.o
  /home/JNOGORT/Documents/Projects/TESTEngine/src/app/main.cpp
+ /home/JNOGORT/Documents/Projects/TESTEngine/src/common/vector3.h
+ /home/JNOGORT/Documents/Projects/TESTEngine/src/core/ecs/custom_components/transform_component.hpp
+ /home/JNOGORT/Documents/Projects/TESTEngine/src/core/ecs/ecs_component.hpp
+ /home/JNOGORT/Documents/Projects/TESTEngine/src/core/ecs/ecs_component_container.hpp
  /home/JNOGORT/Documents/Projects/TESTEngine/src/core/ecs/ecs_definitions.hpp
  /home/JNOGORT/Documents/Projects/TESTEngine/src/core/ecs/ecs_entity.hpp
  /home/JNOGORT/Documents/Projects/TESTEngine/src/core/ecs/ecs_entity_container.hpp
@@ -235,6 +239,11 @@ CMakeFiles/TESTEngine.dir/src/app/main.cpp.o
  /usr/lib/gcc/x86_64-pc-linux-gnu/15.2.1/include/stdarg.h
  /usr/lib/gcc/x86_64-pc-linux-gnu/15.2.1/include/stddef.h
  /usr/lib/gcc/x86_64-pc-linux-gnu/15.2.1/include/stdint.h
+
+CMakeFiles/TESTEngine.dir/src/common/vector3.cpp.o
+ /home/JNOGORT/Documents/Projects/TESTEngine/src/common/vector3.cpp
+ /home/JNOGORT/Documents/Projects/TESTEngine/src/common/vector3.h
+ /usr/include/stdc-predef.h
 
 CMakeFiles/TESTEngine.dir/src/core/ecs/ecs_component_container.cpp.o
  /home/JNOGORT/Documents/Projects/TESTEngine/src/core/ecs/ecs_component_container.cpp
@@ -909,6 +918,7 @@ TESTEngine
  /usr/lib/libm.so.6
  /usr/lib/libmvec.so.1
  /home/JNOGORT/Documents/Projects/TESTEngine/build/CMakeFiles/TESTEngine.dir/src/app/main.cpp.o
+ /home/JNOGORT/Documents/Projects/TESTEngine/build/CMakeFiles/TESTEngine.dir/src/common/vector3.cpp.o
  /home/JNOGORT/Documents/Projects/TESTEngine/build/CMakeFiles/TESTEngine.dir/src/core/ecs/ecs_component_container.cpp.o
  /home/JNOGORT/Documents/Projects/TESTEngine/build/CMakeFiles/TESTEngine.dir/src/core/ecs/ecs_entity.cpp.o
  /home/JNOGORT/Documents/Projects/TESTEngine/build/CMakeFiles/TESTEngine.dir/src/core/ecs/ecs_entity_container.cpp.o

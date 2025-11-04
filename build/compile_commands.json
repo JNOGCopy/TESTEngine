@@ -28,5 +28,11 @@
   "command": "/usr/bin/c++  -I/home/JNOGORT/Documents/Projects/TESTEngine/TESTEngine -I/home/JNOGORT/Documents/Projects/TESTEngine/src -g -o CMakeFiles/TESTEngine.dir/src/core/ecs/ecs_module.cpp.o -c /home/JNOGORT/Documents/Projects/TESTEngine/src/core/ecs/ecs_module.cpp",
   "file": "/home/JNOGORT/Documents/Projects/TESTEngine/src/core/ecs/ecs_module.cpp",
   "output": "CMakeFiles/TESTEngine.dir/src/core/ecs/ecs_module.cpp.o"
+},
+{
+  "directory": "/home/JNOGORT/Documents/Projects/TESTEngine/build",
+  "command": "/usr/bin/c++  -I/home/JNOGORT/Documents/Projects/TESTEngine/TESTEngine -I/home/JNOGORT/Documents/Projects/TESTEngine/src -g -o CMakeFiles/TESTEngine.dir/src/common/vector3.cpp.o -c /home/JNOGORT/Documents/Projects/TESTEngine/src/common/vector3.cpp",
+  "file": "/home/JNOGORT/Documents/Projects/TESTEngine/src/common/vector3.cpp",
+  "output": "CMakeFiles/TESTEngine.dir/src/common/vector3.cpp.o"
 }
 ]

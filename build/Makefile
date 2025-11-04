@@ -153,6 +153,30 @@ src/app/main.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/TESTEngine.dir/build.make CMakeFiles/TESTEngine.dir/src/app/main.cpp.s
 .PHONY : src/app/main.cpp.s
 
+src/common/vector3.o: src/common/vector3.cpp.o
+.PHONY : src/common/vector3.o
+
+# target to build an object file
+src/common/vector3.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/TESTEngine.dir/build.make CMakeFiles/TESTEngine.dir/src/common/vector3.cpp.o
+.PHONY : src/common/vector3.cpp.o
+
+src/common/vector3.i: src/common/vector3.cpp.i
+.PHONY : src/common/vector3.i
+
+# target to preprocess a source file
+src/common/vector3.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/TESTEngine.dir/build.make CMakeFiles/TESTEngine.dir/src/common/vector3.cpp.i
+.PHONY : src/common/vector3.cpp.i
+
+src/common/vector3.s: src/common/vector3.cpp.s
+.PHONY : src/common/vector3.s
+
+# target to generate assembly for a file
+src/common/vector3.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/TESTEngine.dir/build.make CMakeFiles/TESTEngine.dir/src/common/vector3.cpp.s
+.PHONY : src/common/vector3.cpp.s
+
 src/core/ecs/ecs_component_container.o: src/core/ecs/ecs_component_container.cpp.o
 .PHONY : src/core/ecs/ecs_component_container.o
 
@@ -261,6 +285,9 @@ help:
 	@echo "... src/app/main.o"
 	@echo "... src/app/main.i"
 	@echo "... src/app/main.s"
+	@echo "... src/common/vector3.o"
+	@echo "... src/common/vector3.i"
+	@echo "... src/common/vector3.s"
 	@echo "... src/core/ecs/ecs_component_container.o"
 	@echo "... src/core/ecs/ecs_component_container.i"
 	@echo "... src/core/ecs/ecs_component_container.s"
