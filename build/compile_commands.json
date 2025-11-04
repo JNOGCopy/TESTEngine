@@ -1,0 +1,32 @@
+[
+{
+  "directory": "/home/JNOGORT/Documents/Projects/TESTEngine/build",
+  "command": "/usr/bin/c++  -I/home/JNOGORT/Documents/Projects/TESTEngine/TESTEngine -I/home/JNOGORT/Documents/Projects/TESTEngine/src -g -o CMakeFiles/TESTEngine.dir/src/app/main.cpp.o -c /home/JNOGORT/Documents/Projects/TESTEngine/src/app/main.cpp",
+  "file": "/home/JNOGORT/Documents/Projects/TESTEngine/src/app/main.cpp",
+  "output": "CMakeFiles/TESTEngine.dir/src/app/main.cpp.o"
+},
+{
+  "directory": "/home/JNOGORT/Documents/Projects/TESTEngine/build",
+  "command": "/usr/bin/c++  -I/home/JNOGORT/Documents/Projects/TESTEngine/TESTEngine -I/home/JNOGORT/Documents/Projects/TESTEngine/src -g -o CMakeFiles/TESTEngine.dir/src/core/ecs/ecs_component_container.cpp.o -c /home/JNOGORT/Documents/Projects/TESTEngine/src/core/ecs/ecs_component_container.cpp",
+  "file": "/home/JNOGORT/Documents/Projects/TESTEngine/src/core/ecs/ecs_component_container.cpp",
+  "output": "CMakeFiles/TESTEngine.dir/src/core/ecs/ecs_component_container.cpp.o"
+},
+{
+  "directory": "/home/JNOGORT/Documents/Projects/TESTEngine/build",
+  "command": "/usr/bin/c++  -I/home/JNOGORT/Documents/Projects/TESTEngine/TESTEngine -I/home/JNOGORT/Documents/Projects/TESTEngine/src -g -o CMakeFiles/TESTEngine.dir/src/core/ecs/ecs_entity_container.cpp.o -c /home/JNOGORT/Documents/Projects/TESTEngine/src/core/ecs/ecs_entity_container.cpp",
+  "file": "/home/JNOGORT/Documents/Projects/TESTEngine/src/core/ecs/ecs_entity_container.cpp",
+  "output": "CMakeFiles/TESTEngine.dir/src/core/ecs/ecs_entity_container.cpp.o"
+},
+{
+  "directory": "/home/JNOGORT/Documents/Projects/TESTEngine/build",
+  "command": "/usr/bin/c++  -I/home/JNOGORT/Documents/Projects/TESTEngine/TESTEngine -I/home/JNOGORT/Documents/Projects/TESTEngine/src -g -o CMakeFiles/TESTEngine.dir/src/core/ecs/ecs_entity.cpp.o -c /home/JNOGORT/Documents/Projects/TESTEngine/src/core/ecs/ecs_entity.cpp",
+  "file": "/home/JNOGORT/Documents/Projects/TESTEngine/src/core/ecs/ecs_entity.cpp",
+  "output": "CMakeFiles/TESTEngine.dir/src/core/ecs/ecs_entity.cpp.o"
+},
+{
+  "directory": "/home/JNOGORT/Documents/Projects/TESTEngine/build",
+  "command": "/usr/bin/c++  -I/home/JNOGORT/Documents/Projects/TESTEngine/TESTEngine -I/home/JNOGORT/Documents/Projects/TESTEngine/src -g -o CMakeFiles/TESTEngine.dir/src/core/ecs/ecs_module.cpp.o -c /home/JNOGORT/Documents/Projects/TESTEngine/src/core/ecs/ecs_module.cpp",
+  "file": "/home/JNOGORT/Documents/Projects/TESTEngine/src/core/ecs/ecs_module.cpp",
+  "output": "CMakeFiles/TESTEngine.dir/src/core/ecs/ecs_module.cpp.o"
+}
+]

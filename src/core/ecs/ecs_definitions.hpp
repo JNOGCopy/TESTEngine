@@ -2,4 +2,4 @@
 
 #include <stdint.h>
 
-#define ECS_ENTITY_ID_TYPE uint8_t
+#define ECS_ENTITY_ID_TYPE uint16_t

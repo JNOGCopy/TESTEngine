@@ -1,0 +1,3 @@
+/home/JNOGORT/Documents/Projects/TESTEngine/build/CMakeFiles/TESTEngine.dir
+/home/JNOGORT/Documents/Projects/TESTEngine/build/CMakeFiles/edit_cache.dir
+/home/JNOGORT/Documents/Projects/TESTEngine/build/CMakeFiles/rebuild_cache.dir
