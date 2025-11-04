@@ -5,7 +5,7 @@
 
 struct ECSEntity;
 
-class ECSEntityManager{
+struct ECSEntityContainer{
 private:
     std::unordered_map<ECS_ENTITY_ID_TYPE, std::shared_ptr<ECSEntity>> m_entityList;
 public:
