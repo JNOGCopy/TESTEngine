@@ -12,7 +12,7 @@ std::shared_ptr<ECSEntityContainer> ECSModule::getECSEntityContainer()
     return m_ecsEntityContainer;
 }
 
-template<typename T>
+/*template<typename T>
 std::shared_ptr<ECSComponentContainer<T>> ECSModule::getECSComponentContainer()
 {
     std::size_t hash = typeid(T).hash_code();
@@ -32,5 +32,5 @@ void ECSModule::addECSComponentContainer(std::shared_ptr<ECSComponentContainer<T
     }
 
     m_ecsComponentContainerMap.emplace(componentContainter);
-}
+}*/
 
