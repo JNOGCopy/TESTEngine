@@ -13,18 +13,18 @@ std::shared_ptr<ECSEntityContainer> ECSModule::getECSEntityContainer()
 }
 
 template<typename T>
-std::shared_ptr<ECSComponentContainer> ECSModule::getECSComponentContainer()
+std::shared_ptr<ECSComponentContainer<T>> ECSModule::getECSComponentContainer()
 {
     std::size_t hash = typeid(T).hash_code();
     if (m_ecsComponentContainerMap.find(hash) == m_ecsComponentContainerMap.end()){
         return nullptr;
     }
 
-    return (std::shared_ptr<ECSComponentContainer>) m_ecsComponentContainerMap.at(hash);
+    return (std::shared_ptr<ECSComponentContainer<T>>) m_ecsComponentContainerMap.at(hash);
 }
 
-template <typename T>
-void ECSModule::addECSComponentContainer(std::shared_ptr<ECSComponentContainer> componentContainter)
+template<typename T>
+void ECSModule::addECSComponentContainer(std::shared_ptr<ECSComponentContainer<T>> componentContainter)
 {
     std::size_t hash = typeid(T).hash_code();
     if (m_ecsComponentContainerMap.find(hash) != m_ecsComponentContainerMap.end()){
@@ -33,3 +33,4 @@ void ECSModule::addECSComponentContainer(std::shared_ptr<ECSComponentContainer> 
 
     m_ecsComponentContainerMap.emplace(componentContainter);
 }
+

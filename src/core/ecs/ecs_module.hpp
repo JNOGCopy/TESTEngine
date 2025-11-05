@@ -3,8 +3,11 @@
 #include <memory>
 #include <unordered_map>
 
+struct ECSComponent;
 struct ECSEntityContainer;
-struct ECSComponentContainer<>;
+
+template<typename T>
+struct ECSComponentContainer;
 
 class ECSModule{
 private:

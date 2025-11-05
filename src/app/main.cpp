@@ -16,7 +16,9 @@
 int main(){
     std::unique_ptr<ECSModule> ecsModule = std::make_unique<ECSModule>();
     
-    
+    std::shared_ptr<ECSComponentContainer<TransformComponent>> ecsTransformComponentContainer = std::make_shared<ECSComponentContainer<TransformComponent>>();
+
     std::shared_ptr<ECSEntity> entity = ecsModule->getECSEntityContainer()->addEntity();
     
+    ecsModule->addECSComponentContainer(ecsTransformComponentContainer);
 }
