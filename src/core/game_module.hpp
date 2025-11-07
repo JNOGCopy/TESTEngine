@@ -1,5 +1,3 @@
-
-
 class GameModule{
     friend class Game;
 protected:

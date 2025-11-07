@@ -3,6 +3,8 @@
 
 #include <core/ecs/ecs_module.hpp>
 
+#include <app/game/game.hpp>
+
 #include <core/ecs/ecs_entity.hpp>
 #include <core/ecs/ecs_component.hpp>
 
@@ -13,12 +15,7 @@
 #define LOG(x) std::cout << x << std::endl;
 
 int main(){
-    std::unique_ptr<ECSModule> ecsModule = std::make_unique<ECSModule>();
-    
-    std::shared_ptr<ECSComponentContainer<TransformComponent>> ecsTransformComponentContainer = std::make_shared<ECSComponentContainer<TransformComponent>>();
+    std::unique_ptr<Game> game = std::make_unique<Game>();
 
-    std::shared_ptr<ECSEntity> entity = ecsModule->getECSEntityContainer()->addEntity();
-    
-    ecsModule->addECSComponentContainer(ecsTransformComponentContainer);
-
+   
 }

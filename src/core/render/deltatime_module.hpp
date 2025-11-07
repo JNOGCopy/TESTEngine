@@ -1,4 +1,6 @@
-class DeltaTimeModule{
+#include <core/game_module.hpp>
+
+class DeltaTimeModule: GameModule{
 public:
-    void getDeltaTime();
-}
+    double getDeltaTime();
+};
